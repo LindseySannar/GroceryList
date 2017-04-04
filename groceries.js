@@ -2,7 +2,7 @@ function addItem(){
   var input=document.getElementById("newItem").value;
    list= document.getElementById("listDisplay");
   var item= document.createElement("li");
-  var itemName=document.createTextNode("input").value;
+  var itemName=document.createTextNode(input);
   item.appendChild(itemName);
   list.appendChild(item);
   document.getElementById("newItem").value="";
