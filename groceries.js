@@ -1,6 +1,6 @@
 function addItem(){
   var input=document.getElementById("newItem").value;
-   list= document.getElementById("listDisplay");
+  var list= document.getElementById("listDisplay");
   var item= document.createElement("li");
   var itemName=document.createTextNode(input);
   item.appendChild(itemName);
